@@ -9,10 +9,10 @@
   </parent>
 
   <groupId>org.openmrs.module</groupId>
-  <artifactId>ozonekenyahmis</artifactId>
+  <artifactId>kenyaemriniz</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>Ozone KenyaHMIS</name>
+  <name>KenyaEMR Iniz</name>
   <description>A module to assist with running KenyaHMIS as an Ozone instance. Primarily handles the different
     assumptions about metadata made by Ozone and KenyaHMIS.
   </description>
@@ -57,7 +57,7 @@
   <properties>
     <javaCompilerSource>8</javaCompilerSource>
     <javaCompilerTarget>8</javaCompilerTarget>
-    <openmrsPlatformVersion>2.6.0</openmrsPlatformVersion>
+    <openmrsPlatformVersion>2.6.4</openmrsPlatformVersion>
     <initializer.version>2.7.0-SNAPSHOT</initializer.version>
   </properties>
 </project>

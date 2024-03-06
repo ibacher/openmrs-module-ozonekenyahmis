@@ -6,21 +6,24 @@
 	<id>${project.parent.artifactId}</id>
 	<name>${project.parent.name}</name>
 	<version>${project.parent.version}</version>
-	<package>org.openmrs.module.ozonekenyahmis</package>
+	<package>org.openmrs.module.kenyaemriniz</package>
 	<author>Mekom Solutions Inc.</author>
 	<description>
 			${project.parent.description}
 	</description>
 
-	<activator>org.openmrs.module.ozonekenyahmis.OzoneKenyaHMISActivator</activator>
+	<activator>org.openmrs.module.kenyaemriniz.KenyaEmrIniz</activator>
 	
 	<!-- <updateURL>https://modules.openmrs.org/modules/download/@MODULE_ID@/update.rdf</updateURL> -->
 	<!-- /Base Module Properties -->
 	
-	<require_version>2.6.0</require_version>
+	<require_version>${openmrsPlatformVersion}</require_version>
 	<require_modules>
 		<require_module>org.openmrs.module.initializer</require_module>
 	</require_modules>
+	<start_before_modules>
+		<module>org.openmrs.module.kenyaemr</module>
+	</start_before_modules>
 
 	
 	<!-- Internationalization -->

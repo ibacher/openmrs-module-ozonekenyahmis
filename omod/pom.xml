@@ -3,19 +3,19 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.openmrs.module</groupId>
-    <artifactId>ozonekenyahmis</artifactId>
+    <artifactId>kenyaemriniz</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>ozonekenyahmis-omod</artifactId>
+  <artifactId>kenyaemriniz-omod</artifactId>
   <packaging>jar</packaging>
-  <name>Ozone KenyaHMIS OMOD</name>
-  <description>Omod submodule for Ozone KenyaHMIS</description>
+  <name>KenyaEMR Iniz OMOD</name>
+  <description>Omod submodule for KenyaEMR InizS</description>
 
   <dependencies>
     <dependency>
       <groupId>org.openmrs.module</groupId>
-      <artifactId>ozonekenyahmis-api</artifactId>
+      <artifactId>kenyaemriniz-api</artifactId>
       <version>1.0.0-SNAPSHOT</version>
     </dependency>
     <dependency>

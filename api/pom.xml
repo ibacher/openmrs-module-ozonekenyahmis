@@ -3,14 +3,14 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.openmrs.module</groupId>
-    <artifactId>ozonekenyahmis</artifactId>
+    <artifactId>kenyaemriniz</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>ozonekenyahmis-api</artifactId>
+  <artifactId>kenyaemriniz-api</artifactId>
   <packaging>jar</packaging>
-  <name>Ozone KenyaHMIS API</name>
-  <description>API project for Ozone KenyaHMIS</description>
+  <name>KenyaEMR Iniz API</name>
+  <description>API project for KenyaEMR Iniz</description>
 
   <dependencies>
     <dependency>
